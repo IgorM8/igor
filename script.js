@@ -1,5 +1,7 @@
-function greet() {
-    var name = prompt("What's your name?");
-    alert("Hello, " + name + "!");
-  
-}
+const n = "igor"
+console.log(n);
+
+global.setTimeout(() => {
+
+    console.log("in the timeout")
+}, 3000);
